@@ -9,10 +9,6 @@ const CartIcon = () => {
 
   const toggleIsCartOpen = () => setIsCartOpen(!isCartOpen);
 
-  const testFunc = () => {
-    console.log("Test function");
-  };
-
   return (
     <div className="cart-icon-container" onClick={toggleIsCartOpen}>
       <ShoppingIcon className='shopping-icon'></ShoppingIcon>
